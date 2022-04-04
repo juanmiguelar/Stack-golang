@@ -24,7 +24,7 @@ func (s *Stack) Pop() (int, error) {
 		return itemToRemove, nil
 	}
 
-	return -1, errors.New("the stack does have items")
+	return -1, errors.New("the stack does not have items")
 }
 
 func main(){
